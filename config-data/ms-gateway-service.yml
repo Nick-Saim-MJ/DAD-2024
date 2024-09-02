@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8085
 
 eureka:
   client:
@@ -19,7 +19,4 @@ spring:
           uri: lb://ms-catalogo-service
           predicates:
             - Path=/categoria/**
-        - id: ms-inventario-service
-          uri: lb://ms-inventario-service
-          predicates:
-            - Path=/inventario/**
+        
