@@ -11,7 +11,7 @@ spring:
           search-paths: config-data
           #username:
           #password:
-          default-label: inventario-server
+          default-label: gateway-service
   security:
     user:
       name: root
