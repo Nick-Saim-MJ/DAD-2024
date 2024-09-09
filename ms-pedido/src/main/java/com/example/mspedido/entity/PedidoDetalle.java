@@ -3,8 +3,6 @@ package com.example.mspedido.entity;
 import com.example.mspedido.dto.Producto;
 import jakarta.persistence.*;
 import lombok.Data;
-import org.bouncycastle.pqc.legacy.math.ntru.polynomial.ProductFormPolynomial;
-
 @Entity
 @Data
 public class PedidoDetalle {
