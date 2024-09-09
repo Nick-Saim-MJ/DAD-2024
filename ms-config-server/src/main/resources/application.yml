@@ -11,7 +11,7 @@ spring:
           search-paths: config-data
           #username:
           #password:
-          default-label: Feign-service
+          default-label: feign-service
   security:
     user:
       name: root
